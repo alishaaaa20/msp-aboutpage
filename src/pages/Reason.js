@@ -24,12 +24,12 @@ const Reason = () => {
 
           <div data-aos="fade-up" data-aos-delay="400">
             <p className="my-3 text-xl text-black-600">
-              Even though the "About Us" page looked nice with all those latest
+              Even though the 'About Us' page looked nice with all those latest
               technologies, it is a significant part of the website and
               contained important information such as identity, values, and
               purpose. While recreating the page, I gained a deeper
-              understanding of the company. And I wanted to provide a fresh new
-              look to the page without losing the essence of the original.
+              understanding of the company. I wanted to provide a fresh new look
+              to the page without losing the essence of the original.
             </p>
           </div>
         </div>
