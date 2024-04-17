@@ -47,7 +47,7 @@ const Distribution = () => {
                 }}
                 onRegionTipShow={function reginalTip(event, label, code) {
                   return label.html(`
-                  <div style="background-color: blue; border-radius: 6px; min-height: 50px; width: 125px; color: white"; padding-left: 10px>
+                  <div style="background-color: red; border-radius: 6px; min-height: 50px; width: 125px; color: white"; padding-left: 10px>
                     <p>
                     <b>
                     ${label.html()}
