@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="footer px-4 sm:px-2 bg-gray-100 border-t border-b py-30">
+        <div className="footer max-w-full mx-auto px-4 sm:px-2 bg-gray-100 border-t border-b py-30">
           {/* Top area: Blocks */}
           <div className="grid sm:grid-cols-12  py-4 md:py-16 border-t border-gray-200 lg:ml-2">
             {/* 1st block */}
@@ -60,7 +60,7 @@ const Footer = () => {
             </div>
 
             {/* 2nd block */}
-            <div className="col-span-5 md:col-span-3 lg:col-span-3 ml-2">
+            <div className="col-span-5 md:col-span-3 lg:col-span-3 ml-2 mx-auto">
               <div className="flex flex-col">
                 <h6 className="text-[#ffffff] text-xl font-bold mb-4">
                   Company
@@ -95,7 +95,7 @@ const Footer = () => {
             </div>
 
             {/* 3rd block */}
-            <div className="lg:col-span-3">
+            <div className="col-span-6 md:col-span-6 lg:col-span-3 mx-auto">
               <div className="flex-col mr-20">
                 <h6 className="text-[#ffffff] text-xl font-bold mb-4">
                   OUR SERVICES
@@ -177,7 +177,7 @@ const Footer = () => {
               </div>
             </div>
             {/* 4th block */}
-            <div className="col-span-6 lg:col-span-1 ml-3">
+            <div className="col-span-6 lg:col-span-1 ml-3 mx-auto">
               <h6 className="text-[#ffffff] text-xl font-bold mb-4">Join</h6>
               <ul className="text-md">
                 <li className="mb-2">
